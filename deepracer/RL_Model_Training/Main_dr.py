@@ -11,7 +11,7 @@ Setting:
 - A fixed sampling interval of 33ms is used when latency is less than the sampling interval,
 and for cases when latency is greater than the sampling interval, both latency and sampling interval values are matched.
 """
-log_path = 'Path_to_save_checkpoints'
+log_path = './Deepracer-checkpoints'
 global_seed = 0
 
 
